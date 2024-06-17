@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This ensures padding doesn't add extra width/height */
+}
+
+link[rel="icon"] {
+    width: 50px;
+    height: auto;
+}
+
+body {
+    background-image: url("../Images/background.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.mainContainer {
+    height: 100%;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 100px 1fr 50px;
+}

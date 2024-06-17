@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 0 20px;
+    font-size: 24px;
+    font-family: "Press Start 2P";
+    letter-spacing: 2px;
+}
+
+.pokeballImg img {
+    width: 50px;
+    margin: 0 10px;
+}
+
+.title {
+    display: flex;
+    gap: 4px;
+}
+
+.poke {
+    color: rgb(242, 50, 50);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.memo {
+    color: rgb(252, 243, 243);
+    font-weight: 700;
+    text-decoration: none;
+}

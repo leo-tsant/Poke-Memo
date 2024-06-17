@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 500; /* Added font weight */
+    padding: 0 20px; /* Side padding for larger screens */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    font-size: 14px;
+}
+
+.footer a {
+    color: rgb(219, 236, 142);
+    text-decoration: none; /* Added underline to identify as link */
+    transition: color 0.3s ease; /* Transition for hover effect */
+    font-weight: 700;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
